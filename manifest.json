@@ -8,8 +8,7 @@
     "default_icon": "cookie.png"
   },
   "background": {
-    "scripts": ["jquery.min.js", "background.js"],
-    "page": "background.html"
+    "scripts": ["jquery.min.js", "background.js"]
   },
   "manifest_version": 2
 }
