@@ -2,7 +2,14 @@
   "name" : "StackOverFlow-Clip",
   "version" : "0.8",
   "description" : "Post StackOverFlow history",
-  "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*", "http://localhost:3000/*", "background" ],
+  "permissions": [
+    "cookies",
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "http://localhost:3000/*",
+    "background"
+  ],
   "icons": { "16": "cookie.png", "48": "cookie.png", "128": "cookie.png" },
   "browser_action": {
     "default_icon": "cookie.png"
