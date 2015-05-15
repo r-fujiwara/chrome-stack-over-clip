@@ -11,6 +11,10 @@
     "http://localhost:3000/*",
     "background"
   ],
+  "options_ui": {
+    "page": "manager.html",
+    "chrome_style": true
+  },
   "icons": { "16": "cookie.png", "48": "cookie.png", "128": "cookie.png" },
   "browser_action": {
     "default_icon": "cookie.png"
