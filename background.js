@@ -49,8 +49,8 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
   var authorization;
   var username = localStorage.getItem("login")
   var password = localStorage.getItem("password")
-  var client_id = "f935d2d9325dbf8a1ad8a6b4298fd3d306f308e7a2868e01e2281c0ce4d3f179"
-  var client_secret = "e22c1f307d524761a7357f36e274adc57d1df326c2a807051e065284d7bd8fcd"
+  var client_id = "628ecc909dee80f0969e7eb78c7e2b7368dc822b58c11d864d89ccdf3581669a"
+  var client_secret = "3c676b37c1b2cc6fc455e01b10d79d9bc57464c12d1b39fa6b698246866bbd17"
   var url = "http://api.localhost:3000/oauth/token?grant_type=password&username=" + username + "&password=" + password + "&client_id=" + client_id + "&client_secret=" + client_secret
 
   $.ajax({
@@ -81,8 +81,7 @@ var resourceTokenCallBack = function(tab, auth_token){
       post: {
         title: tab.title,
         url: tab.url,
-        content: "someone!",
-        user_id: 1
+        content: "someone!"
       }
     }
   }).done(function(res){
